@@ -1,0 +1,58 @@
+const menus = [
+  {
+    name: 'Amala, Okro & Fish',
+    image: '/images/amala.jpg',
+    category: 'African',
+    price: 700,
+    available: true,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Chicken & Chips',
+    image: '/images/chicken-chips.jpg',
+    category: 'Continental',
+    price: 800,
+    available: true,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Chinese Rice & Chicken',
+    image: '/images/chinese-rice.jpg',
+    category: 'Continental',
+    price: 1200,
+    available: false,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'Eba, Egusi & Turkey',
+    image: '/images/eba-egusi.jpg',
+    category: 'African',
+    price: 900,
+    available: true,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Fried Rice & Turkey',
+    image: '/images/fried-rice.jpg',
+    category: 'Continental',
+    price: 1200,
+    available: true,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    name: 'Pounded Yam, Egusi & Chicken',
+    image: '/images/pounded-yam-egusi.jpg',
+    category: 'African',
+    price: 1200,
+    available: false,
+    rating: 4,
+    numReviews: 12,
+  },
+]
+
+export default menus
